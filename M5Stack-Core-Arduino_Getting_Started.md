@@ -68,7 +68,7 @@ mkdir espressif && cd espressif
 
 
 > * 将esp32的支持包clone在文件夹esp32下
-> 
+
 git clone https://github.com/espressif/arduino-esp32.git  esp32
 
 ![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/clone_esp32_idf.png)
@@ -143,3 +143,7 @@ void loop() {
 点击编译运行，此时M5Stack显示器显示"Hello World!""M5Stack is running successfully!"
 
 
+                                                                            *Last updated on 2018-06-08*
+
+
+                                                                            
