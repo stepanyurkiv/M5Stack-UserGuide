@@ -100,7 +100,7 @@ USB线连接M5Stack主控，选择串口和一个示例程序，compile and uplo
 
 ### 1、打开一个示例程序，如打开FactoryTest.ino
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select demo.png)
+![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_demo.png)
 
 
 
