@@ -1,8 +1,6 @@
 ﻿# M5Stack-Core-Arduino —— Getting Started
 
 
----
-
 ## 一、安装USB驱动
 
 点击以下链接，下载M5Stack-Core的USB转串口驱动
@@ -142,8 +140,7 @@ void loop() {
 
 点击编译运行，此时M5Stack显示器显示"Hello World!""M5Stack is running successfully!"
 
-
+---
                                                                             *Last updated on 2018-06-08*
 
 
-                                                                            
