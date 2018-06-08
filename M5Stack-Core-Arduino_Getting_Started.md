@@ -104,7 +104,7 @@ USB线连接M5Stack主控，选择串口和一个示例程序，compile and uplo
 
 
 
-确认连接板子名称、串口波特率和当前串口号分别：M5Stack-Core-ESP32、921600、(当前电脑串口号)
+确认连接板子名称、串口波特率和当前串口号分别：M5Stack-Core-ESP32、921600、COM3(当前电脑串口号)
 
 ![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_board_and_com.png)
 
