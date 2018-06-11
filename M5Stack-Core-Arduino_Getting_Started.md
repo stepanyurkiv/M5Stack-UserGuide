@@ -54,20 +54,11 @@ mkdir espressif && cd espressif
 ![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/mkdir_espressif.png)
 
 
-> * 将 esp32 的支持包 clone 在文件夹 esp32 下
+> * 将 esp32 idf clone 在文件夹 esp32 下
 
-git clone https://github.com/espressif/arduino-esp32.git  esp32
+git clone --recursive https://github.com/espressif/arduino-esp32.git esp32
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/clone_esp32_idf.png)
-
-
-> * 切换到 esp32 路径，进一步 clone 子仓库文件
-
-cd esp32
-
-git submodule update --init --recursive
-
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/clone_esp32_idf_subdir.png)
+![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/download_idf.png)
 
 
 
