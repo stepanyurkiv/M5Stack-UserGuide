@@ -15,7 +15,7 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 如果安装成功，在插入 M5Stack 主控之后，设备管理器如下图所示出现，Silicon Labs 的 CP21x 系列串口端口号
 (我的电脑当前串口号是 COM3)
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/my_com.png)
+![image](screenshots/my_com.png)
 
 
 ## 二、开发环境
@@ -25,17 +25,17 @@ https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vc
 *下载地址*
 https://www.arduino.cc/en/Main/Software 
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/arduino_cc_package.png)
+![image](screenshots/arduino_cc_package.png)
 
 
 如下图所示修改 Arduino 路径为 D:\Program Files
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_arduino_install_path.png)
+![image](screenshots/select_arduino_install_path.png)
 
 
 此时，Arduino 的安装路径为 D:\Program Files\Arduino
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/arduino_path.png)
+![image](screenshots/arduino_path.png)
 
 
 ### 2、下载 ESP32 相关支持包
@@ -51,14 +51,14 @@ https://www.arduino.cc/en/Main/Software
 
 mkdir espressif && cd espressif
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/mkdir_espressif.png)
+![image](screenshots/mkdir_espressif.png)
 
 
 > * 将 esp32 idf clone 在文件夹 esp32 下
 
 git clone --recursive https://github.com/espressif/arduino-esp32.git esp32
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/download_idf.png)
+![image](screenshots/download_idf.png)
 
 
 
@@ -67,18 +67,18 @@ git clone --recursive https://github.com/espressif/arduino-esp32.git esp32
 进入此路径 D:\Program Files\arduino\hardware\espressif\esp32\tools
 选中并双击执行 get.exe 文件
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_get_exe_file.png)
+![image](screenshots/select_get_exe_file.png)
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/download_xtensa_tools.png)
+![image](screenshots/download_xtensa_tools.png)
 
 
 ### 4、Arduino IDE 中下载 M5Stack 的库
 
 打开 Arduino IDE 之后，选择“项目”->“加载库”->“管理库...”，搜索“M5Stack”并点击“安装”
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_arduino_lib.png)
+![image](screenshots/select_arduino_lib.png)
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/download_m5stack_lib.png)
+![image](screenshots/download_m5stack_lib.png)
 
 
 ## 三、示例
@@ -87,19 +87,19 @@ USB 线连接 M5Stack 主控，选择串口和一个示例程序，compile and u
 
 ### 1、打开一个示例程序，如打开 FactoryTest.ino
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_demo.png)
+![image](screenshots/select_demo.png)
 
 
 
 确认连接板子名称、串口波特率和当前串口号分别：M5Stack-Core-ESP32、921600、COM3(当前电脑串口号)
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/select_board_and_com.png)
+![image](screenshots/select_board_and_com.png)
 
 
 编译运行成功之后，串口监视窗口显示如下
 
 
-![image](https://github.com/watson8544/M5Stack-UserGuide/blob/master/screenshots/FactoryTest_result.png)
+![image](screenshots/FactoryTest_result.png)
 
 ### 2、新建一个 M5Stack 程序
 
