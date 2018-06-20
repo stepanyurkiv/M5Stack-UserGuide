@@ -4,7 +4,7 @@
 
 The M5Stack FIRE is a development kit based on ESP32 chip. You can even program The M5Stack FIRE through Blockly, Arduino or MicroPython.
 
-The M5Stack FIRE equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a LiPo charger (MPU-6050) , so your ESP32CAM project can be battery-powered and truly wireless. Additionally, the board reserved the MPU6050,BME280 and an analog MIC.
+The M5Stack FIRE equips the ESP32 with everything necessary to program, run and develop on the wonderchip. It also features a Six-Axis (Gyro + Accelerometer) MEMS (MPU-6050), a 3-Axis Digital Magnetometer (MAG3110) and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack FIRE in a day in stead of couple weeks and so on.
 
 ## FEATURES
 
