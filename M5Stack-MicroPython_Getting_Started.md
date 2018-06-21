@@ -1,5 +1,19 @@
-## Download M5Cloud Firmware to M5Stack board
-### 1. Download M5Cloud Firmware from Github
+# M5Stack-MicroPython_Getting_Started
+
+<!-- TOC -->
+
+- [M5Stack-MicroPython_Getting_Started](#m5stack-micropython_getting_started)
+        - [Download M5Cloud Firmware to M5Stack board](#download-m5cloud-firmware-to-m5stack-board)
+            - [1. Download M5Cloud Firmware from Github](#1-download-m5cloud-firmware-from-github)
+            - [2. M5Cloud Firmware to M5Stack board](#2-m5cloud-firmware-to-m5stack-board)
+        - [M5Stack board connect io.m5stack.com via Wi-Fi](#m5stack-board-connect-iom5stackcom-via-wi-fi)
+        - [Binding device](#binding-device)
+        - [Coding MicroPython](#coding-micropython)
+
+<!-- /TOC -->
+
+### Download M5Cloud Firmware to M5Stack board
+#### 1. Download M5Cloud Firmware from Github
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
@@ -7,7 +21,7 @@ And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
 
 ![image](M5Stack_MicroPython_UserGuidePictures/linux_m5cloud_firmware_name.png)
 
-### 2. M5Cloud Firmware to M5Stack board
+#### 2. M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
 ---|--- | ---
 Windows | Linux | MacOS 
@@ -72,7 +86,7 @@ Now, my PC terminal, as shown below
 ![image](M5Stack_MicroPython_UserGuidePictures/download_m5cloud_firmware_to_m5stack_board.png)
 
     
-## M5Stack board connect io.m5stack.com via Wi-Fi
+### M5Stack board connect io.m5stack.com via Wi-Fi
 
 
 **1. connect to M5Stack AP**
@@ -91,12 +105,13 @@ login 192.168.4.1 setting the SSID and Password
 
 ![image](M5Stack_MicroPython_UserGuidePictures/wifisetup.png)
 
-## Binding device
+### Binding device
 
 **1. login io.m5stack.com and register your own account(or login your account)**
 ![image](M5Stack_MicroPython_UserGuidePictures/register_m5stack_acount.png)
 
 **2. binding this M5Stack board to your account**
+
 ![image](M5Stack_MicroPython_UserGuidePictures/webIDE_binding_device_interface.png)
 
 
@@ -106,7 +121,8 @@ login 192.168.4.1 setting the SSID and Password
 
 ![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
 
-## Coding MicroPython
+### Coding MicroPython
 
 ![image](M5Stack_MicroPython_UserGuidePictures/create_a_new_project.png)
 
+![image](M5Stack_MicroPython_UserGuidePictures/hello_world_prj.png)
