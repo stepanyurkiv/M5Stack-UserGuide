@@ -3,9 +3,9 @@
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
-And `m5cloud-20180516-v0.4.0.bin` saved at , as shown below
-[^_^]:
-    TODO: put a picture here
+And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
+
+![image](M5Stack_MicroPython_UserGuidePictures/linux_m5cloud_firmware_name.png)
 
 ### 2. Download M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
@@ -67,8 +67,10 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 ```
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
 ```
-[^_^]:
-    TODO: put a picture here
+
+Now, my PC terminal, as shown below
+![image](M5Stack_MicroPython_UserGuidePictures/linux_check_usb_port.png)
+
     
 ## M5Stack board connect io.m5stack.com via Wi-Fi
 ### 
