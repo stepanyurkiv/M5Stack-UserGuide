@@ -1,11 +1,16 @@
-## Download M5Cloud Firmware
-
+## Download M5Cloud Firmware to M5Stack board
+### 1. Download M5Cloud Firmware from Github
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
 And `m5cloud-20180516-v0.4.0.bin` saved at 
 [^_^]:
     TODO: put a picture here
+
+### 2. Download M5Cloud Firmware to M5Stack board
+![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
+---|--- | ---
+Windows | Linux | MacOS 
 
 ***Windows***
 
