@@ -74,7 +74,9 @@ Now, my PC terminal, as shown below
     
 ## M5Stack board connect io.m5stack.com via Wi-Fi
 
+
 **1. connect to M5Stack AP**
+
 ![image](M5Stack_MicroPython_UserGuidePictures/windows_connect_m5stack_AP.png)
 
 
@@ -97,13 +99,14 @@ login 192.168.4.1 setting the SSID and Password
 **2. binding this M5Stack board to your account**
 ![image](M5Stack_MicroPython_UserGuidePictures/webIDE_binding_device_interface.png)
 
-![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
-
-
-
 
 **3. Input the Check Code for the M5Stack screen display，Check Code is random,after 60s will refresh**
 
+![image](M5Stack_MicroPython_UserGuidePictures/check_code_on_m5stack.png)
+
+![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
 
 ## Coding MicroPython
+
+![image](M5Stack_MicroPython_UserGuidePictures/create_a_new_project.png)
 
