@@ -1,14 +1,11 @@
-# M5Stack-Core-MicroPython —— Getting Started
-
-## content
-- [Download M5Cloud Firmware](#Download-M5Cloud-Firmware)
-- [Download](#Download)
-
-### Download M5Cloud Firmware
+# Download M5Cloud Firmware
 
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
+And `m5cloud-20180516-v0.4.0.bin` saved at 
+[^_^]:
+    TODO: put a picture here
 
 ***Windows***
 
@@ -63,5 +60,13 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
 ```
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
 ```
+[^_^]:
+    TODO: put a picture here
+    
+# M5Stack board connect io.m5stack.com via Wi-Fi
+## 
 
-### Download
+# Binding device
+# Coding MicroPython
+
+
