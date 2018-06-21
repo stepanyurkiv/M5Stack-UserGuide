@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack FACES is a development kit based on ESP32 chip compatible with three different KeyBoard( *26 letters KeyBoard, Gameboy KeyBoard and Calculator KeyBoard*).
+The M5Stack FACES is a development kit based on ESP32 chip compatible with three different KeyBoards( *26 letters KeyBoard, Gameboy KeyBoard and Calculator KeyBoard*).
 
 You can even program The M5Stack FACES through Blockly, Arduino or MicroPython. Absolutely, you can DIY many classify GameBoy games as you like, such as Super Mario, Tetris and so on.You also make a remotely controlled calculator, or a Somatosensory game remote controller.
 
@@ -13,6 +13,7 @@ You can even program The M5Stack FACES through Blockly, Arduino or MicroPython. 
    + Arduino
    + Python
 - Compatible LEGO
+- Support NESEmu
 - TF Card Support
 
 ## PARAMETER
@@ -61,4 +62,4 @@ Weight | 56g
 - [Example](https://github.com/m5stack/M5GO/tree/master/examples)
 - [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)
 - [Datasheet](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) (MPU9250)
-- [GitHub](https://github.com/m5stack/M5GO)
+- [GitHub](https://github.com/m5stack/M5Stack-nesemu)
