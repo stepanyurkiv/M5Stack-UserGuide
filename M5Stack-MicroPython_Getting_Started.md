@@ -3,7 +3,7 @@
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
-And `m5cloud-20180516-v0.4.0.bin` saved at 
+And `m5cloud-20180516-v0.4.0.bin` saved at , as shown below
 [^_^]:
     TODO: put a picture here
 
@@ -41,7 +41,9 @@ The currently logged user should have read and write access the serial port over
   ```
   sudo usermod -a -G dialout $USER
   ```
-Now, my serial port named `ttyUSB0`
+Now, my serial port named `ttyUSB0`, as shown below
+
+![image](M5Stack_MicroPython_UserGuidePictures/linux_check_usb_port.png)
 
 [^_^]:
     TODO: put a picture here
