@@ -15,13 +15,13 @@
 
 
 ### Download M5Cloud Firmware to M5Stack board
-####1. Download M5Cloud Firmware from Github
+#### 1. Download M5Cloud Firmware from Github
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
-
+  
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
 And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
 
-####2. M5Cloud Firmware to M5Stack board
+#### 2. M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
 ---|---|---
 Windows | Linux | MacOS 
@@ -58,30 +58,27 @@ The currently logged user should have read and write access the serial port over
 Now, my serial port named `ttyUSB0`
 
 *3. Download M5Cloud firmware to M5Stack board*
-
   - Installing esptool：
     ```
     pip install esptool
     ```
-
   - Erase flash on M5Stack:
     ```
     esptool.py --chip esp32 --port /dev/ttyUSB0 erase_flash
     ```
-
   - Download firmware to M5Stack: 
     ```
     esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
     ```
     
-###3. M5Stack board connect io.m5stack.com via Wi-Fi
+### 3. M5Stack board connect io.m5stack.com via Wi-Fi
 
 
 Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 setting your LAN SSID and Password
 
 ![image](M5Stack_MicroPython_UserGuidePictures/m5stack_connet_wifi.png)
 
-###4. Binding device
+### 4. Binding device
 
 *1.login io.m5stack.com and register your own account(or login your account)*
 
@@ -93,7 +90,7 @@ Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open bro
 
 ![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
 
-###5. Coding MicroPython
+### 5. Coding MicroPython
 
 *1. create a new python project*
 
