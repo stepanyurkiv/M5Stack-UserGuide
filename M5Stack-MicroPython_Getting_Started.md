@@ -1,14 +1,11 @@
-# M5Stack-MicroPython_Getting_Started
-
 <!-- TOC -->
 
-- [M5Stack-MicroPython_Getting_Started](#m5stack-micropython_getting_started)
-        - [Download M5Cloud Firmware to M5Stack board](#download-m5cloud-firmware-to-m5stack-board)
-            - [1. Download M5Cloud Firmware from Github](#1-download-m5cloud-firmware-from-github)
-            - [2. M5Cloud Firmware to M5Stack board](#2-m5cloud-firmware-to-m5stack-board)
-        - [M5Stack board connect io.m5stack.com via Wi-Fi](#m5stack-board-connect-iom5stackcom-via-wi-fi)
-        - [Binding device](#binding-device)
-        - [Coding MicroPython](#coding-micropython)
+- [Download M5Cloud Firmware to M5Stack board](#download-m5cloud-firmware-to-m5stack-board)
+    - [1. Download M5Cloud Firmware from Github](#1-download-m5cloud-firmware-from-github)
+    - [2. M5Cloud Firmware to M5Stack board](#2-m5cloud-firmware-to-m5stack-board)
+- [M5Stack board connect io.m5stack.com via Wi-Fi](#m5stack-board-connect-iom5stackcom-via-wi-fi)
+- [Binding device](#binding-device)
+- [Coding MicroPython](#coding-micropython)
 
 <!-- /TOC -->
 
