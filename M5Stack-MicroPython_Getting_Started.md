@@ -19,7 +19,7 @@
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
   
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
-And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
+and it saved at `~/smbshare`
 
 #### 2. M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
@@ -28,7 +28,7 @@ Windows | Linux | MacOS
 
 ***Windows***
 
-open Flash Download Tools([点击下载](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar)) apply by Espressif, choose `ESP32 DownloadTool` and execute 3 steps ( *choose firmware file, your serial port, erase and program flash* ) as shown below
+open Flash Download Tools([点击下载](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar)) apply by Espressif, choose `ESP32 DownloadTool` option and execute three steps ( *choose firmware file, your serial port, erase and program flash* ) as shown below
 
 ![image](M5Stack_MicroPython_UserGuidePictures/windows_download_firmware.png)
 
@@ -85,11 +85,11 @@ Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open bro
 
 ### Binding device
 
-*1.login io.m5stack.com and register your own account(or login your account)*
+*1.login http://io.m5stack.com and register your own account(or login your account)*
 
 *2. press `Device->Add` buttom on M5Cloud IDE for binding M5Stack board to your account*
 
-*3. Input the Check Code for the M5Stack screen display，Check Code is random,after 60s will refresh*
+*3. Input the Check Code for the M5Stack screen display，Check Code is random, after 60s will refresh*
 
 ![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
 
@@ -99,7 +99,7 @@ Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open bro
 
 ![image](M5Stack_MicroPython_UserGuidePictures/create_a_new_project.png)
 
-*2. press `Upload & Run` buttom on the M5Cloud IDE*
+*2. write your own code and press `Upload & Run` buttom on the M5Cloud IDE*
 
 copy below code to `main.py` file and press `Upload & Run` 
 
