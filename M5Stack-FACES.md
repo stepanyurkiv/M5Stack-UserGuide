@@ -13,7 +13,7 @@ You can even program The M5Stack FACES through Blockly, Arduino or MicroPython. 
    + Arduino
    + Python
 - Compatible LEGO
-- Support NESEmu
+- Support Nintendo emulator 
 - TF Card Support
 
 ## PARAMETER
