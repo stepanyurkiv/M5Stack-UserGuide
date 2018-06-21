@@ -7,7 +7,7 @@ And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
 
 ![image](M5Stack_MicroPython_UserGuidePictures/linux_m5cloud_firmware_name.png)
 
-### 2. Download M5Cloud Firmware to M5Stack board
+### 2. M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
 ---|--- | ---
 Windows | Linux | MacOS 
@@ -69,13 +69,41 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x10
 ```
 
 Now, my PC terminal, as shown below
-![image](M5Stack_MicroPython_UserGuidePictures/linux_check_usb_port.png)
+![image](M5Stack_MicroPython_UserGuidePictures/download_m5cloud_firmware_to_m5stack_board.png)
 
     
 ## M5Stack board connect io.m5stack.com via Wi-Fi
-### 
+
+**1. connect to M5Stack AP**
+![image](M5Stack_MicroPython_UserGuidePictures/windows_connect_m5stack_AP.png)
+
+
+**2. Use Mobile Phone or PC browser login 192.168.4.1 setting the SSID and Password**
+
+your M5Stack LCD Interface
+
+
+![image](M5Stack_MicroPython_UserGuidePictures/m5stack_connet_wifi.png)
+
+login 192.168.4.1 setting the SSID and Password
+
+![image](M5Stack_MicroPython_UserGuidePictures/wifisetup.png)
 
 ## Binding device
-## Coding MicroPython
 
+**1. login io.m5stack.com and register your own account(or login your account)**
+![image](M5Stack_MicroPython_UserGuidePictures/register_m5stack_acount.png)
+
+**2. binding this M5Stack board to your account**
+![image](M5Stack_MicroPython_UserGuidePictures/webIDE_binding_device_interface.png)
+
+![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
+
+
+
+
+**3. Input the Check Code for the M5Stack screen display，Check Code is random,after 60s will refresh**
+
+
+## Coding MicroPython
 
