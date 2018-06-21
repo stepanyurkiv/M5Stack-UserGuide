@@ -1,17 +1,17 @@
 
 ### CONTENT
 
-[Download M5Cloud Firmware to M5Stack board](#download-m5cloud-firmware-to-m5stack-board)
+1. [Download M5Cloud Firmware to M5Stack board](#download-m5cloud-firmware-to-m5stack-board)
 
-[1. Download M5Cloud Firmware from Github](#1-download-m5cloud-firmware-from-github)
+    - [1. Download M5Cloud Firmware from Github](#1-download-m5cloud-firmware-from-github)
    
-[2. M5Cloud Firmware to M5Stack board](#2-m5cloud-firmware-to-m5stack-board)
+    - [2. M5Cloud Firmware to M5Stack board](#2-m5cloud-firmware-to-m5stack-board)
 
-[M5Stack board connect io.m5stack.com via Wi-Fi](#m5stack-board-connect-iom5stackcom-via-wi-fi)
+2. [M5Stack board connect io.m5stack.com via Wi-Fi](#m5stack-board-connect-iom5stackcom-via-wi-fi)
 
-[Binding device](#binding-device)
+3. [Binding device](#binding-device)
 
-[Coding MicroPython](#coding-micropython)
+4. [Coding MicroPython](#coding-micropython)
 
 
 ### Download M5Cloud Firmware to M5Stack board
@@ -24,13 +24,18 @@ And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
 #### 2. M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
 ---|---|---
-Windows | Linux | MacOS 
+Windows | Linux | MacOS
 
 ***Windows***
+
+open Flash Download Tools([点击下载](https://www.espressif.com/sites/default/files/tools/flash_download_tools_v3.6.4.rar)) apply by Espressif, choose `ESP32 DownloadTool` and execute 3 steps ( *choose firmware file, your serial port, erase and program flash* ) as shown below
+
+![image](M5Stack_MicroPython_UserGuidePictures/windows_download_firmware.png)
 
 
 
 ***MacOS/Linux***
+
 *1. Check port on Linux and MacOS*
 
   To check the device name for the serial port of your M5Stack board (or external converter dongle), run this command two times, first with the board / dongle unplugged, then with plugged in. The port which appears the second time is the one you need:
@@ -71,14 +76,14 @@ Now, my serial port named `ttyUSB0`
     esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
     ```
     
-### 3. M5Stack board connect io.m5stack.com via Wi-Fi
+### M5Stack board connect io.m5stack.com via Wi-Fi
 
 
 Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 setting your LAN SSID and Password
 
 ![image](M5Stack_MicroPython_UserGuidePictures/m5stack_connet_wifi.png)
 
-### 4. Binding device
+### Binding device
 
 *1.login io.m5stack.com and register your own account(or login your account)*
 
@@ -86,11 +91,9 @@ Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open bro
 
 *3. Input the Check Code for the M5Stack screen display，Check Code is random,after 60s will refresh*
 
-![image](M5Stack_MicroPython_UserGuidePictures/check_code_on_m5stack.png)
-
 ![image](M5Stack_MicroPython_UserGuidePictures/WebIDE_check_code.png)
 
-### 5. Coding MicroPython
+### Coding MicroPython
 
 *1. create a new python project*
 
@@ -98,4 +101,18 @@ Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open bro
 
 *2. press `Upload & Run` buttom on the M5Cloud IDE*
 
-![image](M5Stack_MicroPython_UserGuidePictures/hello_world_prj.png)
+copy below code to `main.py` file and press `Upload & Run` 
+
+``` python
+from m5stack import lcd
+
+lcd.clear()
+lcd.setCursor(0, 0)
+lcd.setColor(lcd.WHITE)
+
+lcd.print("Hello World!")
+
+```
+
+![image](M5Stack_MicroPython_UserGuidePictures/display_hello_world.png)
+
