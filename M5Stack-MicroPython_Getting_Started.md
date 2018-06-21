@@ -1,13 +1,13 @@
 
 ### CONTENT
 
-1. [Download M5Cloud Firmware to M5Stack board](#download-m5cloud-firmware-to-m5stack-board)
+1. [Burn Firmware](#Burn-Firmwared)
 
-    - [1. Download M5Cloud Firmware from Github](#1-download-m5cloud-firmware-from-github)
+    - [1. Download Firmware](#1-download-firmware)
    
-    - [2. M5Cloud Firmware to M5Stack board](#2-m5cloud-firmware-to-m5stack-board)
+    - [2. Burn to M5Stack](#2-Burn-to-M5Stack)
 
-2. [M5Stack board connect io.m5stack.com via Wi-Fi](#m5stack-board-connect-iom5stackcom-via-wi-fi)
+1. [Connect Wi-Fi](#connect-wi-fi)
 
 3. [Binding device](#binding-device)
 
@@ -15,13 +15,13 @@
 
 
 ### Download M5Cloud Firmware to M5Stack board
-#### 1. Download M5Cloud Firmware from Github
+#### 1. Download Firmware
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
   
 Now, the M5Cloud firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
 and it saved at `~/smbshare`
 
-#### 2. M5Cloud Firmware to M5Stack board
+#### 2. Burn to M5Stack
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
 ---|---|---
 Windows | Linux | MacOS
@@ -76,7 +76,7 @@ Now, my serial port named `ttyUSB0`
     esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x1000 m5cloud-20180516-v0.4.0.bin
     ```
     
-### M5Stack board connect io.m5stack.com via Wi-Fi
+### Connect Wi-Fi
 
 
 Mobile Phone or PC connect to M5Stack AP(like `M5Stack-a67c`), and then open brower to login 192.168.4.1 setting your LAN SSID and Password
