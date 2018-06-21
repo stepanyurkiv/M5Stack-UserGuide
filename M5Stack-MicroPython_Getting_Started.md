@@ -23,7 +23,7 @@ And `m5cloud-20180516-v0.4.0.bin` saved at `~/smbshare`, as shown below
 
 ####2. M5Cloud Firmware to M5Stack board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
----|--- | ---
+---|---|---
 Windows | Linux | MacOS 
 
 ***Windows***
