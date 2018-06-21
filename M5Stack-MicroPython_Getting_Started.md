@@ -1,4 +1,4 @@
-# Download M5Cloud Firmware
+## Download M5Cloud Firmware
 
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
 
@@ -63,10 +63,10 @@ esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash --flash_mode dio -z 0x10
 [^_^]:
     TODO: put a picture here
     
-# M5Stack board connect io.m5stack.com via Wi-Fi
-## 
+## M5Stack board connect io.m5stack.com via Wi-Fi
+### 
 
-# Binding device
-# Coding MicroPython
+## Binding device
+## Coding MicroPython
 
 
