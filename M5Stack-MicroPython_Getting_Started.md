@@ -14,7 +14,7 @@
 4. [Coding MicroPython](#coding-micropython)
 
 
-### Download M5Cloud Firmware to M5Stack board
+### Burn Firmware
 #### 1. Download Firmware
 https://github.com/m5stack/M5Cloud/tree/master/firmwares
   
