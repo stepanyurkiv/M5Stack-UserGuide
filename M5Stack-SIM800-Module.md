@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack SIM800L Module is a development kit based on ESP32 chip. You can even program The M5Stack SIM800L Module through Blockly, Arduino or MicroPython.
+The M5Stack SIM800L Module is a module with small SIM800L GSM/GPRS module. You can program it after connected to any series of M5Stack Core through Blockly, Arduino or MicroPython.
 
 SIM800L is a complete Quad-band GSM/GPRS solution. SIM800L moudle could be connected with M5Stack Core via a serial port named USART2. Absolutely, you also can change the serial port number with jumper by your own.
 
@@ -13,7 +13,8 @@ SIM800L is a complete Quad-band GSM/GPRS solution. SIM800L moudle could be conne
    + Arduino
    + Python
 - Compatible with LEGO
-- SIM800L Module and antenna
+- SIM800L Module 
+- Antenna Included 
 - 3.5 mm phone audio jack
 - Microphone
 - Parameter:
