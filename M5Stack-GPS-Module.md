@@ -12,7 +12,6 @@ GPS module is built on the high performing u-blox M8 GNSS engine and exhibit hig
    + Blockly
    + Arduino
    + Python
-- Antenna Included
 - GPS NEO-M8N Module 
   + high-performance
   + high-sensitivity
@@ -23,6 +22,7 @@ GPS module is built on the high performing u-blox M8 GNSS engine and exhibit hig
 ## INCLUDES
 
 - 1x M5Stack GPS Module
+- 1x M5Stack Antenna
 
 ## Applications
 
