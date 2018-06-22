@@ -12,7 +12,6 @@ SIM800L is a complete Quad-band GSM/GPRS solution. SIM800L moudle could be conne
    + Blockly
    + Arduino
    + Python
-- Compatible with LEGO
 - SIM800L Module 
 - Build-in Antenna
 - 3.5 mm phone audio jack
