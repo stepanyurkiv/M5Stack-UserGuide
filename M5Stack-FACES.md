@@ -12,7 +12,7 @@ You can even program The M5Stack FACES through Blockly, Arduino or MicroPython. 
    + Blockly
    + Arduino
    + Python
-- Compatible LEGO
+- Compatible with LEGO
 - Support Nintendo emulator 
 - TF Card Support
 
@@ -58,8 +58,8 @@ Weight | 56g
 
 
 ## DOCUMENTS
-- [Schematic](https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf)
-- [Example](https://github.com/m5stack/M5GO/tree/master/examples)
+
 - [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)
-- [Datasheet](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) (MPU9250)
+- [Datasheet](https://www.invensense.com/wp-content/uploads/2015/02/MPU-9250-Datasheet1.pdf) (MPU9250)
 - [GitHub](https://github.com/m5stack/M5Stack-nesemu)
+- [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/FACES)

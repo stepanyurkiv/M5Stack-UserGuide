@@ -12,7 +12,7 @@ The M5Stack FIRE equips the ESP32 with everything necessary to program, run and 
    + Blockly
    + Arduino
    + Python
-- Compatible LEGO
+- Compatible with LEGO
 - TF Card Support
 
 ## PARAMETER
@@ -44,9 +44,10 @@ Weight | 56g
 
 
 ## DOCUMENTS
+
 - [Schematic](https://github.com/m5stack/esp32-cam-demo/blob/m5cam/M5CAM-ESP32-A1-POWER.pdf)
-- [Example](https://github.com/m5stack/M5GO/tree/master/examples)
+- [Example](https://github.com/m5stack/M5Stack/tree/master/examples)
 - [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)
 - [Datasheet](https://www.invensense.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf) (MPU6050)
 - [Datasheet](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf) (MAG3110)
-- [GitHub](https://github.com/m5stack/M5GO)
+- [GitHub](https://github.com/m5stack/M5Stack)
