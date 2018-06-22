@@ -8,10 +8,6 @@ M5Stack LoRa Module can be used for ultra-long distance spread spectrum communic
 
 ## FEATURES
 
-- Programming Support
-   + Blockly
-   + Arduino
-   + Python
 - LoRa Module named RA-02 supply by Ai-Thinker 
   + Supports FSK, GFSK, MSK, GMSK, LoRa ™ and OOK modulation modes
   + Receive sensitivity as low as -141 dBm

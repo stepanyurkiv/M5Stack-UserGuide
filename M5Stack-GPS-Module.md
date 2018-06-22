@@ -8,10 +8,6 @@ GPS module is built on the high performing u-blox M8 GNSS engine and exhibit hig
 
 ## FEATURES
 
-- Programming Support
-   + Blockly
-   + Arduino
-   + Python
 - GPS NEO-M8N Module 
   + high-performance
   + high-sensitivity
