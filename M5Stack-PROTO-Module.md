@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-The M5Stack PROTO Module is a flexible blank circle with 30 pins which could connect to all series of M5Stack Core. You can create any circle that could controlled by any M5Stack Core on M5Stack PROTO Module as you like.
+The M5Stack PROTO Module is a flexible blank circle with 30 pins which could connect with all series of M5Stack Core. You can create any circle that could controlled by any M5Stack Core on M5Stack PROTO Module as you like.
 
 ## FEATURES
 
