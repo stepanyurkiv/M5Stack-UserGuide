@@ -8,27 +8,27 @@ GPS module is built on the high performing u-blox M8 GNSS engine and exhibit hig
 
 ## FEATURES
 
-- GPS NEO-M8N Module 
-  + high-performance
-  + high-sensitivity
-  + Concurrent reception of up to 3 GNSS
-  + Industry leading –167 dBm navigation sensitivity
++ Free DIY
 
 
 ## INCLUDES
 
-- 1x M5Stack GPS Module
-- 1x M5Stack Antenna
+- 1x PLC-Proto Broad
+- 1x RS485 module
+- 1x PLC Plastic Enclosure
+- 1x Slide Guide
+- 1x Magnet
+- 1x 6 Pin 3.96 Pitch Terminal
+- 1x 4 Pin 3.96 Pitch Terminal
+- 3x Hex Key
+- 7x Electrical Terminal
+- 1x Sticker
 
 ## Applications
 
-- Child positioning bracelet 
-- Logistics Tracking Management based on GPS 
 
 ## DOCUMENTS
 
 - [WebSite](https://m5stack.com)
-- [Example](https://github.com/m5stack/M5Stack/tree/master/examples/Modules/GPS)
-- [GPS Info](https://www.u-blox.com/zh/product/neo-m8-series) (GPS)
 - [GitHub](https://github.com/m5stack/M5Stack)
 
