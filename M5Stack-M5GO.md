@@ -21,7 +21,7 @@ The M5Stack M5GO equips the ESP32 with everything necessary to program, run and 
 
 Model | M5Stack M5GO
 ---|---
-ESP32 | 240MHz dual core, 600 DMIPS, 4MB SRAM, Wi-Fi, dual mode Bluetooth
+ESP32 | 240MHz dual core, 600 DMIPS, 520KB SRAM, Wi-Fi, dual mode Bluetooth
 Flash | 16M-Bytes
 Input | 5V @ 500mA
 Interface | TypeC x 1, GROVE(I2C+I/0+UART), Pogo Pin x 1

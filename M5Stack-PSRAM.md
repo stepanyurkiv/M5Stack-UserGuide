@@ -2,9 +2,8 @@
 
 ## DESCRIPTION
 
-The M5Stack PSRAM is a development kit based on ESP32 chip. You can even program The M5Stack PSRAM through Blockly, Arduino or MicroPython.
-
-The M5Stack PSRAM equips the ESP32 with everything necessary to program, run and develop on the wonderful chip. It also features a Six-Axis (Gyro + Accelerometer), 3-Axis Digital Magnetometer, MEMS(MPU9250), and a TFT LCD, so you can create a 3D remote gesture controller, a simple "Leap Motion" via M5Stack PSRAM in a day in stead of couple weeks and so on.
+This is the New M5Stack 4M PSRAM Version Development Kit. 
+It integrated ESP32, 4MB PSRAM and 9-axis motion sensor MPU9250, can support Arduino and MicroPython development, support MicroPython cloud download.
 
 ## FEATURES
 
