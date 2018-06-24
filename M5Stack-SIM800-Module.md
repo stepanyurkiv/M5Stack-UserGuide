@@ -17,7 +17,6 @@ SIM800L is a complete Quad-band GSM/GPRS solution. SIM800L moudle could be conne
   + support Quad-band 850/900/1800/1900MHz
   + transmit Voice, SMS and data information with low power consumption
   + Featur Bluetooth and Embedded AT
-- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## INCLUDES
 

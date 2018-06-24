@@ -12,7 +12,6 @@ It integrated ESP32, 4MB PSRAM and 9-axis motion sensor MPU9250, can support Ard
    + ESP-IDF
    + MicroPython
 - TF Card Support
-- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## PARAMETER
 

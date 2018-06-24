@@ -15,7 +15,6 @@ You can even program The M5Stack FACES through Blockly, Arduino or MicroPython. 
 - Compatible LEGO
 - Support Nintendo emulator
 - TF Card Support
-- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## PARAMETER
 

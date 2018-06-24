@@ -8,7 +8,6 @@ Absolutely, it is more easier to charge M5Stack Core via Type-C Cable after addi
 ## FEATURES
 
 - DHT12 inside 
-- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## INCLUDES
 
