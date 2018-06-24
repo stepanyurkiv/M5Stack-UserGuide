@@ -15,6 +15,7 @@ The M5Stack M5GO equips the ESP32 with everything necessary to program, run and 
    + Python
 - Compatible LEGO
 - TF Card Support
+- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 
 ## PARAMETER

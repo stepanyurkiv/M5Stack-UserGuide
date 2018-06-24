@@ -13,6 +13,7 @@ The M5Stack BASIC equips the ESP32 with everything necessary to program, and a T
    + ESP-IDF
    + MicroPython
 - TF Card Support
+- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## PARAMETER
 

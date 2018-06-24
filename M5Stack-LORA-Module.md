@@ -13,6 +13,7 @@ M5Stack LoRa Module can be used for ultra-long distance spread spectrum communic
   + Receive sensitivity as low as -141 dBm
   + Programmable bit rate up to 300Kbps
 - Build-in Antenna
+- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## INCLUDES
 

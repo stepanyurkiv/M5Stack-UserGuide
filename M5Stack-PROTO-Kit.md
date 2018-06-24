@@ -9,6 +9,7 @@ The M5Stack PROTO Module is a flexible blank circle with 30 pins which could con
 - Flexible extended blank circle
 - Compatible with all series of M5Stack Core
 - A environment detector - DHT12 Module
+- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## Interface
 LINE0 | LINE1

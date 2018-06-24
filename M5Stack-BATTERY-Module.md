@@ -8,6 +8,7 @@ create a portble device with any series of M5Stack Core and M5Stack BATTERY Modu
 ## FEATURES
 
 - 850mAh High-Capacity Battery
+- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 ## INCLUDES
 

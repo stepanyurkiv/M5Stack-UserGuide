@@ -13,6 +13,7 @@ GPS module is built on the high performing u-blox M8 GNSS engine and exhibit hig
   + high-sensitivity
   + Concurrent reception of up to 3 GNSS
   + Industry leading –167 dBm navigation sensitivity
+  - Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 
 ## INCLUDES
