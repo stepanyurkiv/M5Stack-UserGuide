@@ -21,5 +21,5 @@ PinNumber | PinName
 - 1x M5Stack USB Downloader
 
 ## DOCUMENTS
-- [Schematic](https://m5stack.com)
-- [UserGuide](https://m5stack.com)
+- [Schematic]()
+- [UserGuide]()
