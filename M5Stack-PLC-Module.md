@@ -2,13 +2,16 @@
 
 ## DESCRIPTION
 
-The M5Stack GPS Module is a module with small GPS module. The small GPS module named UBLOX NEO-M8N. You can program it through Blockly, Arduino or MicroPython after connected to any series of M5Stack Core.
+The M5Stack PLC Module is a prototye industrial board, including RS484 adapter and electricity meter module.
 
-GPS module is built on the high performing u-blox M8 GNSS engine and exhibit high performance and high sensitivity.And it can supply your global positioning information even you in the wild and get lost.
+With DC9~24V power input, PLC-Proto motherboard reserved 6Pin or 4Pin relay output, digital input, communication interface etc.
 
 ## FEATURES
 
-+ Free DIY
+- Free DIY
+- Programmable Logic Controller 
+- Individual package weight: 0.1kg (0.22lb.)
+- Package size: 5cm * 5cm * 5cm (1.97in * 1.97in * 1.97in)
 
 
 ## INCLUDES
@@ -26,6 +29,10 @@ GPS module is built on the high performing u-blox M8 GNSS engine and exhibit hig
 
 ## Applications
 
+- Programmable Logic Controller 
+- Programmable Motion Controller
+- Digital Operation Processor
+- Strong Electric Controller
 
 ## DOCUMENTS
 
