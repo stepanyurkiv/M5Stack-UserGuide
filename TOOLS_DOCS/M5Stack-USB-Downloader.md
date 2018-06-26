@@ -22,4 +22,4 @@ PinNumber | PinName
 
 ## DOCUMENTS
 
-- [Schematic]()
+- [Schematic](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/USBtool.pdf)
