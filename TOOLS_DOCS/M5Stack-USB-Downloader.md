@@ -23,3 +23,6 @@ PinNumber | PinName
 ## DOCUMENTS
 
 - [Schematic](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/USBtool.pdf)
+- [UserGuide](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)
+
+
