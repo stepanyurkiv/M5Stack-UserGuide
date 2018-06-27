@@ -16,6 +16,10 @@ PinNumber | PinName
 5 | RXD
 6 | 3.3V
 
+### NOTE 
+
+There are two reserved pins(RTS, DTR) on M5Stack USB Downloader for other applications.
+
 ## INCLUDES
 
 - 1x M5Stack USB Downloader
@@ -24,5 +28,6 @@ PinNumber | PinName
 
 - [Schematic](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/USBtool.pdf)
 - [UserGuide](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/M5Stack-USB-Downloader-UserGuide.md)
+
 
 
