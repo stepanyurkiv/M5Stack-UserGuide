@@ -50,4 +50,4 @@ The ESP32CAM equips the ESP32 with everything necessary to program, run and deve
 - [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf) (ESP32)
 - [Datasheet](https://www.uctronics.com/download/cam_module/OV2640DS.pdf) (OV2640)
 - [GitHub](https://github.com/m5stack/esp32-cam-demo)
-- [HowToWork](https://github.com/watson8544/M5Stack-UserGuide/blob/master/TOOLS_DOCS/ESP32CAM_UserGuide.md)
+- [HowToWork](https://github.com/watson8544/M5Stack-UserGuide/blob/master/ESP32CAM_UserGuide.md)

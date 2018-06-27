@@ -21,4 +21,5 @@ It is really really out of the box. Your ESP32CAM will immediately run without a
 Now, A WebCam you achieved successfully !
 
 *Note:*
+
 ESP32CAM only can connect with one device at a time.
