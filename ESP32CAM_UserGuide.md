@@ -22,4 +22,4 @@ Now, A WebCam you achieved successfully !
 
 *Note:*
 
-ESP32CAM only can connect with one device at a time.
+ESP32CAM AP only can connect with one device at a time.
