@@ -2,14 +2,9 @@
 
 ### CONTENT
 
-1. [Burn Firmware](#Burn-Firmwared)
-
-    - [1. Download USB Driver](#1-download-USB-Driver)
-    - [2. Download Firmware](#2-download-firmware)
-    - [3. Burn to M5Stack](#3-Burn-to-M5Stack)
-
-
-### Burn Firmware
+- [1. Download USB Driver](#1-download-usb-driver)
+- [2. Download Firmware](#2-download-firmware)
+- [3. Burn to board](#3-burn-to-board)
 
 #### 1. Download USB Driver
 
@@ -31,7 +26,7 @@ Download the firmware you need.
 Now, the firmware I downloaded named `m5cloud-20180516-v0.4.0.bin`
 and it saved at `~/smbshare` on Linux
 
-#### 3. Burn to M5Stack
+#### 3. Burn to board
 ![image](platform_picture/windows-logo1.png) | ![image](platform_picture/linux-logo1.png) | ![image](platform_picture/macos-logo1.png) 
 ---|---|---
 Windows | Linux | MacOS
