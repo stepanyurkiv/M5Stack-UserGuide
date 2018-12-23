@@ -2,6 +2,8 @@
 
 ### *The Documentation of M5Stack is http://docs.m5stack.com. And this repo will not update.*
 
+**If you want the complete documents about M5Stack, please star this repo https://github.com/m5stack/m5-docs.*
+
 ### M5Stack Core 
 
 *Product Documents*
